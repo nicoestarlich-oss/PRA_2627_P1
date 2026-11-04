@@ -1,3 +1,5 @@
+#ifndef LISTARRAY_H
+#define LISTARRAY_H
 #include <ostream>
 #include <stdexcept>
 #include "List.h"
@@ -105,5 +107,6 @@ class ListArray : public List<T> {
     int size() override {
         return n;
     }
-    
-:!g++ -c ListArray.h  # Recuerda ejecutarlo desde el modo comando de vim!};
+};
+
+#endif
